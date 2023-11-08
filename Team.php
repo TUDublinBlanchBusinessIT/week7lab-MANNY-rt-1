@@ -7,7 +7,7 @@ class team {
 
     
     public function __construct($teamName) {
-        $this->teamName = $teamname;
+        $this->teamName = $teamName;
         $this->teamPoints = 0;
         $this->teamGoals = 0;
         $this->teamGames = 0;
@@ -26,14 +26,14 @@ class team {
     }
     
     public function getTeamName() {
-        return $this->TeamName;
+        return $this->teamName; 
     }
     public function getTotalPoints() {
-        return $this->TotalPoints;
+        return $this->totalPoints;
     }
     
     public function getTotalGames() {
-        return $this->totalGames;
+        return $this->totalGames; 
     }
     
 }
